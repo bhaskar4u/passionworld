@@ -18,7 +18,7 @@
                   <a-icon type="more" />School Details
                 </span>
 
-                <a-menu-item key="1">Time Table/Periods/Calender</a-menu-item>
+                <a-menu-item @click="callback" key="121">Time Table/Periods/Calender</a-menu-item>
                 <a-menu-item key="2">Digital Syllabus</a-menu-item>
                 <a-menu-item key="3">Live Classroom</a-menu-item>
                 <a-menu-item key="4">News</a-menu-item>
@@ -110,14 +110,27 @@
           </a-menu>
         </a-layout-sider>
         <a-layout-content :style="{ padding: '0 24px', minHeight: '280px' }">
-          <div>
-            <h1 key="1">content</h1>
-          </div>
+          <h1 v-if="121">Vue is awesome!</h1>
         </a-layout-content>
       </a-layout>
     </a-layout>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      key: ""
+    };
+  },
+  methods: {
+    callback(key) {
+      console.log(key);
+    }
+  }
+};
+</script>
 
 <style>
 #components-layout-demo-top-side .logo {
