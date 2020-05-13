@@ -2,161 +2,165 @@
   <div class="table-head">
     <h1 class="sad">School Academic Details</h1>
     <h5 class="table">Time Table</h5>
-
-    <a-row class="row">
-      <a-col :span="3">#</a-col>
-      <a-col :span="3">Sun</a-col>
-      <a-col :span="3">Mon</a-col>
-      <a-col :span="3">Tue</a-col>
-      <a-col :span="3">Wed</a-col>
-      <a-col :span="3">Thus</a-col>
-      <a-col :span="3">Fri</a-col>
-      <a-col :span="3">Sat</a-col>
-    </a-row>
-    <a-row type="flex" class="row-one">
-      <a-col :span="3">8:30-9:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
-    <a-row class="row-two">
-      <a-col :span="3">9:30-10:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
-    <a-row class="row-third">
-      <a-col :span="3">10:30-11:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
-    <a-row class="row-four">
-      <a-col :span="3">11:30-12:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
-    <a-row class="row-five">
-      <a-col :span="3">1:30-2:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
-    <a-row class="row-six">
-      <a-col :span="3">2:30-3:30</a-col>
-      <a-col :span="3">
-        <a-button @click="info"></a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-      <a-col :span="3">
-        <a-button @click="info">Subject</a-button>
-      </a-col>
-    </a-row>
+    <div class="main-row">
+      <a-row class="row">
+        <a-col :span="3">#</a-col>
+        <a-col :span="3">Sun</a-col>
+        <a-col :span="3">Mon</a-col>
+        <a-col :span="3">Tue</a-col>
+        <a-col :span="3">Wed</a-col>
+        <a-col :span="3">Thus</a-col>
+        <a-col :span="3">Fri</a-col>
+        <a-col :span="3">Sat</a-col>
+      </a-row>
+      <a-row type="flex" class="row-one">
+        <a-col :span="3">8:30-9:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+      <a-row class="row-two">
+        <a-col :span="3">9:30-10:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+      <a-row class="row-third">
+        <a-col :span="3">10:30-11:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+      <a-row class="row-lunch">
+        <a-button type="primary" block>Lunch</a-button>
+      </a-row>
+      <a-row class="row-four">
+        <a-col :span="3">11:30-12:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+      <a-row class="row-five">
+        <a-col :span="3">1:30-2:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+      <a-row class="row-six">
+        <a-col :span="3">2:30-3:30</a-col>
+        <a-col :span="3">
+          <a-button type="danger" @click="info"></a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+        <a-col :span="3">
+          <a-button @click="info">Subject</a-button>
+        </a-col>
+      </a-row>
+    </div>
   </div>
 </template>
 
@@ -180,7 +184,7 @@ export default {
 </script>
 <style>
 .table-head {
-  background-color: blue;
+  background-color: rgb(95, 95, 214);
   color: white;
   height: 500px;
   width: 100%;
@@ -192,7 +196,11 @@ export default {
 .table {
   color: white;
 }
+.main-row {
+  margin-left: 30px;
+}
 .row {
+  margin-left: 5px;
   margin-top: 10px;
 }
 .row-one {
@@ -201,8 +209,16 @@ export default {
 .row-two {
   margin-top: 20px;
 }
+
 .row-third {
   margin-top: 20px;
+}
+
+.row-lunch {
+  color: red;
+  margin-top: 20px;
+  width: 960px;
+  padding: 1px;
 }
 .row-four {
   margin-top: 20px;

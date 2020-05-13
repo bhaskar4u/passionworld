@@ -1,14 +1,14 @@
 <template>
   <div>
-    <LiveClsaaroom />
+    <DigitalClassRoom />
   </div>
 </template>
 
 <script>
-import LiveClsaaroom from "~/components/LiveClsaaroom";
+import DigitalClassRoom from "~/components/DigitalClassRoom";
 export default {
   components: {
-    LiveClsaaroom
+    DigitalClassRoom
   }
 };
 </script>

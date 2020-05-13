@@ -18,6 +18,15 @@
           <a-menu-item>
             <a href="/member">Member</a>
           </a-menu-item>
+          <a-menu-item>
+            <a href="#">Career</a>
+          </a-menu-item>
+          <a-menu-item>
+            <a href="#">ContactUs</a>
+          </a-menu-item>
+          <a-menu-item>
+            <a href="#">AboutUs</a>
+          </a-menu-item>
         </a-menu>
       </a-layout-header>
     </a-layout>
